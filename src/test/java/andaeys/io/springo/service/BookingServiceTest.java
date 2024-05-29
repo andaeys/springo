@@ -42,7 +42,7 @@ public class BookingServiceTest {
         booking.setCheckOut(LocalDate.parse("2024-06-10"));
         booking.setGuestName("Mat Solar");
 
-        Booking booking2= new Booking();
+        Booking booking2 = new Booking();
         booking2.setCheckIn(LocalDate.parse("2024-05-01"));
         booking2.setCheckOut(LocalDate.parse("2024-09-10"));
         booking2.setGuestName("Jamal Mussolini");
